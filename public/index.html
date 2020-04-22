@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>happy-thoughts</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="libraries/p5.js"></script>
+  <!--- <script src="libraries/p5.sound.js"></script> --->
+  <script src="sketch.js"></script>
+  <link href="style.css" rel="stylesheet"></link>
+  <script src="bird.js"></script>
+  <script src="cloud.js"></script>
+  <script src="interface.js"></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+</head>
+
+<body>
+  <div id="popUp">
+
+    <div>
+      <button id = "close">X</button>
+      <p>submit your happy thought so we can see it in the clouds...</p>
+      <textarea id = "userInput" rows = 4 maxlength = 40 placeholder = "write your happy thought in 40 characters or less..."></textarea>
+      <br>
+      <button id = "submit">submit</button>
+
+    </div>
+  </div>
+  <button id = "happyButton">what's your happy thought?</button>
+</body>
+
+</html>

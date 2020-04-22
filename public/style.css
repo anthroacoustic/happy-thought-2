@@ -1,0 +1,66 @@
+body{
+  color: white;
+  font-size: 1.5vw;
+  font-family: DIN Alternate;
+  border-radus: 50vw;
+  
+}
+
+button{
+  color: white;
+  padding: 1vw;
+  background-color: #009FF1; 
+  border: .5w;
+  border-color: #2B2B2B;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: DIN Alternate;
+  font-size: 1.5vw;
+  
+}
+
+
+
+input:focus, textarea:focus, select:focus, button:focus{
+        outline: none;
+    }
+
+
+#popUp {
+  background-color: #8DB32C;
+  font-size: 2vw;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  margin-top: -25vh;
+  margin-left: -25vw;  
+  width: 50vw;
+  padding: 2.5%;
+}
+
+#close {
+  position: relative;
+  float: right;
+  margin-top: -5%;
+  outline: none;
+  
+}
+
+#submit {
+  position: relative;
+  float: right;
+  margin-top: 2vh;
+}
+
+#userInput {
+  width:98.75%;
+}
+
+#happyButton{
+position: absolute;
+left: 75vw;  
+top:92vh;  
+} 
